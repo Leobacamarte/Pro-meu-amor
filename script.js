@@ -10,8 +10,8 @@ const desvia = (btn) => {
   btn.style.bottom = geraPosicao(10, 90);
   btn.style.left = geraPosicao(10, 90);
   console.log('opa, desviei...');
-}
+};
 
 const geraPosicao = (min, max) => {
   return (Math.random() * (max - min) + min) + "%";
-}
+};
